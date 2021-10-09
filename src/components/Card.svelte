@@ -15,7 +15,6 @@
     position: relative;
     background-color: whitesmoke;
     position: relative;
-    width: 100%;
     text-align: center;
     padding: 20px;
     box-shadow: 3px 8px 31px -4px rgba(0,0,0,0.34);

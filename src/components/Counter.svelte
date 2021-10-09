@@ -11,7 +11,10 @@
 
 <style>
   .counter {
+    display: flex;
+    flex-direction: column;
     padding: 10px 10px 10px 0;
+    text-align: center;
   }
 
   .counter_label {
