@@ -12,6 +12,7 @@
 
 <style>
   .card {
+    position: relative;
     background-color: whitesmoke;
     position: relative;
     width: 100%;
@@ -42,5 +43,18 @@
 
   .card__button > a { 
     color: white;
+  }
+
+  @media (max-width: 425px) {
+    .card__headline {
+      font-size: 18px;
+    }
+    .card__subheadline {
+      font-size: 12px;
+    }
+    .card__button {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
   }
 </style>

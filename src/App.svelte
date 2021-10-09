@@ -1,5 +1,6 @@
 <script>
-  import Card from './Card.svelte';
+  import Card from './components/Card.svelte';
+  import Counter from './components/Counter.svelte';
 </script>
 
 <main>
@@ -9,6 +10,7 @@
       subheadline="Esse é meu primeiro teste utilizando Svelte"
       cta="Quero aprender Svelte também"
     />
+    <Counter />
   </div>
 </main>
 
@@ -23,17 +25,17 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
+    width: 100%
   }
 
   .container {
     position: relative;
     width: 60%;
-    height: auto;
   }
 
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
+  @media (max-width: 640px) {
+    .container {
+      width: 100%;
     }
   }
 </style>
